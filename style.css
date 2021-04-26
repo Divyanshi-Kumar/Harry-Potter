@@ -1,0 +1,75 @@
+body
+{
+    text-align: center;
+    padding-top: 800px;
+    width: 100%;
+}
+img
+{
+    border: 7px;
+    border-style: dotted;
+    border-color: cyan;
+    border-radius: 50%
+}
+#uppersection
+{
+    height: 800px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    display: table;
+    background: linear-gradient(#7734eb,#eb3498);
+    z-index: 5;
+}
+#innersection
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+h1,h2
+{
+    font-family: cursive;
+     font-size: 25px;
+}
+#bodysection
+{
+    /*margin: 40px;*/
+    
+}
+p
+{
+    width: 750px;
+    font-family: 'Original Surfer', cursive;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px auto;
+}
+.line
+{
+    height: 5px;
+    width: 100px;
+    background-color: aqua;
+    margin: 0px auto;
+}
+#menu
+{
+    width: 100%;
+    background-color: fuchsia;
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;    
+list-style: none;
+color: black;
+margin-left: 0px;}
+#menuitems
+{
+    float: left;
+    padding:10px;
+    font-size: 20px;
+    
+}
+#menuitems:hover
+{
+    background-color: crimson;
+}
